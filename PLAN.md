@@ -6,7 +6,7 @@
 
 - [x] Platform evaluated and decided: Godot 4, GDScript only
 - [x] Architecture documented: two-layer scene structure, distribution targets, constraint compliance responsibilities
-- [ ] Scope the CPU basics toy against CONSTRAINTS.md (define the domain, name the state ceiling, design the failure reversibility path)
+- [ ] Scope the CPU basics toy against docs/CONSTRAINTS.md (define the domain, name the state ceiling, design the failure reversibility path)
 - [ ] Build a throw-away Godot prototype: CPU register display, to validate zero-latency actuation feel before committing to the full build
 
 ## Phase 2: Product specs

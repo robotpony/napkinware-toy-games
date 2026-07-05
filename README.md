@@ -24,7 +24,7 @@ This is a prototype project for exploring some toy program ideas.
 
 ## Candidate toy projects
 
-See IDEAS.md for the current candidate toy projects.
+See `docs/IDEAS.md` for the current candidate toy projects.
 
 ## Unknowns, questions, etc.
 
