@@ -13,8 +13,12 @@
 
 **Goal:** Write specs for the shared framework and the first toy before any production code.
 
-- [ ] Shared framework PRD (teaching layer content schema, toy layer shared UX, shell scene structure)
-- [ ] CPU basics toy PRD (domain definition, hard state ceiling, failure reversibility design, success criteria)
+- [x] Decide repository structure: single Godot project, `docs/specs/shared/` vs `docs/specs/toys/` split (see CLAUDE.md § Repository structure)
+- [x] Shared framework PRD → `docs/specs/shared/framework.md` (teaching layer content schema, toy layer shared UX, shell scene structure)
+- [x] Networking infrastructure PRD → `docs/specs/infrastructure/networking.md` (port contract, connector toy, local/LAN-only v1 scope, code-as-teaching-tool principle)
+- [ ] Persistence (file I/O) PRD — raised alongside networking as a shared infrastructure need, not yet specced: save/load and CONSTRAINTS.md §8 artifact export. Needs its own decision on scope before writing.
+- [ ] CPU basics toy PRD → `docs/specs/toys/kit-01-bit-factory.md` (domain definition, hard state ceiling, failure reversibility design, success criteria)
+- [ ] Connector toy PRD (name and Kit number TBD in `docs/IDEAS.md`) → `docs/specs/toys/kit-NN-slug.md`
 
 ## Phase 3: Architecture
 

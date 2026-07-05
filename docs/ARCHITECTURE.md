@@ -67,6 +67,14 @@ CONSTRAINTS.md defines what each toy must satisfy. Two clauses require active de
 
 ---
 
+## Source availability
+
+This project's source is released publicly, not just the toys' compiled builds. That changes what "done" means for some code: it must be readable as a teaching artifact in its own right, not only as an implementation detail behind a UI.
+
+This does not relax the project's default commenting convention (don't explain what code obviously does). It does mean specific components, where the code itself demonstrates a concept a toy is trying to teach, are explicit exceptions: comment density there can exceed the default, because the comment is part of the lesson. `docs/specs/infrastructure/networking.md` is the first case of this. Treat each exception as scoped to its component, not as a general licence to over-comment.
+
+---
+
 ## State legibility convention
 
 §4 requires internal state to be inspectable without instrumentation. In Godot terms: the simulation's internal state (registers, buffers, counters, signals) is rendered as first-class UI elements, not read from the debugger. If the user has to open the Godot remote debugger to understand what the toy is doing, the toy is not compliant.
